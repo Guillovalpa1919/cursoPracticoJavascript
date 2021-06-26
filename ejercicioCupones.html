@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupones | curso practico JS</title>
+</head>
+<body>
+    <header>
+        <h1>Aplica tu cupon para el descuento!!</h1>
+    </header>
+    <form action="">
+        <label for="valorProducto">
+            <span>Ingresa el valor del producto</span>
+            <input type="number" id="valorProducto">
+        </label>
+        <label for="cupon">
+            <span>Ingresa el cupón aqui!</span>
+            <input type="text" id="cupon">
+        </label>
+        <button type="button" onclick="calculaPrecioFinal()">Calcular precio final</button>
+    </form>
+    <p id="parrafoPrecio"></p>
+    <script src="ejercicioCupones.js"></script>
+</body>
+</html>
